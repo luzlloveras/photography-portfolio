@@ -10,6 +10,17 @@ export default function Work() {
         <ul className="mt-16 space-y-12">
           <li>
             <h2 className="text-xl font-light">
+              <Link href="/work/travel" className="hover:opacity-80">
+                Travel Cities
+              </Link>
+            </h2>
+            <p className="mt-2 max-w-xl text-sm opacity-70">
+              Destination-led edits focused on light, place, and daily life.
+            </p>
+          </li>
+
+          <li>
+            <h2 className="text-xl font-light">
               <Link href="/work/cities" className="hover:opacity-80">
                 Cities & Architecture
               </Link>
